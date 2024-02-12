@@ -30,7 +30,7 @@ const path = useLocation().pathname;
         <FaMoon />
       </Button>
       <Link to='/Signin'>
-        <Button gradientDuoTone='purpleToBlue' pill>
+        <Button gradientDuoTone='purpleToBlue' outline pill>
           Sign In
         </Button>
       </Link>
@@ -50,3 +50,4 @@ const path = useLocation().pathname;
     </Navbar> 
   )
 }
+
